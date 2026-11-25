@@ -1,0 +1,9 @@
+[
+ {"id":"sample-1","facility":"Demo Lab A","region":"Lagos","organism":"E. coli","antibiotic":"Ciprofloxacin","result":"Resistant","month":"2026-10"},
+ {"id":"sample-2","facility":"Demo Lab B","region":"Lagos","organism":"E. coli","antibiotic":"Ciprofloxacin","result":"Resistant","month":"2026-10"},
+ {"id":"sample-3","facility":"Demo Lab C","region":"Lagos","organism":"E. coli","antibiotic":"Ciprofloxacin","result":"Susceptible","month":"2026-10"},
+ {"id":"sample-4","facility":"Demo Lab D","region":"Ogun","organism":"Klebsiella pneumoniae","antibiotic":"Ceftriaxone","result":"Resistant","month":"2026-09"},
+ {"id":"sample-5","facility":"Demo Lab E","region":"Ogun","organism":"Klebsiella pneumoniae","antibiotic":"Ceftriaxone","result":"Resistant","month":"2026-09"},
+ {"id":"sample-6","facility":"Demo Lab F","region":"Ogun","organism":"Klebsiella pneumoniae","antibiotic":"Ceftriaxone","result":"Resistant","month":"2026-09"},
+ {"id":"sample-7","facility":"Demo Lab G","region":"FCT","organism":"Staphylococcus aureus","antibiotic":"Methicillin","result":"Susceptible","month":"2026-10"}
+]
