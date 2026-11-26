@@ -5,7 +5,9 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 const DATA = path.join(__dirname, 'data', 'records.json');
 app.use(express.json({limit:'100kb'}));
-app.use(express.static(path.join(__dirname, 'public')));
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, 'index.html'));
+});
 function load(){ try{return JSON.parse(fs.readFileSync(DATA,'utf8'));}catch{return [];} }
 function save(rows){ fs.mkdirSync(path.dirname(DATA),{recursive:true}); fs.writeFileSync(DATA,JSON.stringify(rows,null,2)); }
 const validRegions=['Lagos','Ogun','Oyo','FCT','Rivers','Kano','Kaduna','Enugu','Other'];
